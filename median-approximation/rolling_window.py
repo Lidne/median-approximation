@@ -10,7 +10,7 @@ from tinkoff.invest.schemas import CandleInterval
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python main.py <figi> <window_size>")
+        print(f"Usage: python {sys.argv[0]} <figi> <window_size>")
         sys.exit(1)
 
     figi = sys.argv[1]

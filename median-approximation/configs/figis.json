@@ -1,0 +1,17 @@
+[
+  { "figi": "RU000A106T36", "ticker": "ASTR" },
+  { "figi": "BBG00475K6C3", "ticker": "CHMF" },
+  { "figi": "TCS00A10ANA1", "ticker": "CNRU" },
+  { "figi": "TCS00A1002V2", "ticker": "EUTR" },
+  { "figi": "BBG0063FKTD9", "ticker": "LENT" },
+  { "figi": "BBG004S68598", "ticker": "MTLR" },
+  { "figi": "BBG004S68BR5", "ticker": "NMTP" },
+  { "figi": "TCS80A10CW95", "ticker": "OZON" },
+  { "figi": "BBG004S682Z6", "ticker": "RTKM" },
+  { "figi": "BBG002458LF8", "ticker": "SELG" },
+  { "figi": "BBG003LYCMB1", "ticker": "SFIN" },
+  { "figi": "BBG0100R9963", "ticker": "SGZH" },
+  { "figi": "TCS00A0ZZAC4", "ticker": "SVCB" },
+  { "figi": "TCS00A0JPP37", "ticker": "UGLD" },
+  { "figi": "TCS03A108X38", "ticker": "X5" }
+]
