@@ -4,8 +4,8 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import pandas as pd
 from config import config
-from tinkoff.invest import Client
-from tinkoff.invest.schemas import CandleInterval
+from t_tech.invest import Client
+from t_tech.invest.schemas import CandleInterval
 
 
 def main():
