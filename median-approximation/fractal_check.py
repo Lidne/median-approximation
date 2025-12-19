@@ -38,7 +38,7 @@ def main():
 
     deltas_series = []
     for i in range(1, power_ceiling + 1):
-        deltas_series.append(series.resample(f"{2**i}min").sum())
+        deltas_series.append(series.resample(f"{i}min").sum())
 
     std_devs = []
     for i, deltas in enumerate(deltas_series):
@@ -49,7 +49,7 @@ def main():
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 10))
 
     # Graph of Sigma vs Delta t
-    time_intervals = [2**i for i in range(1, power_ceiling + 1)]
+    time_intervals = [i for i in range(1, power_ceiling + 1)]
 
     ax1.plot(time_intervals, std_devs, marker="o", color="skyblue")
     ax1.set_title("σ(Δt) vs Δt")
